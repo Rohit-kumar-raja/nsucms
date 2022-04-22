@@ -2,10 +2,7 @@
     @slot('title', 'Netaji Subhas Univversity')
 
     @slot('body')
-
-
         <div class="bg-dark text-center pb-3 mb-3 "><br>
-
             <img class="logo" src="{{ asset('img/logo.png') }}" alt="NSU">
         </div>
         <!-- start contact -->
@@ -16,8 +13,6 @@
             </div>
         </div>
         <section class="contact-section container">
-
-
             <form method="POST" action="{{ route('prospectus') }}">
                 @csrf
                 <div class="card p-4 mt-3 mb-3">
